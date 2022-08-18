@@ -26,10 +26,10 @@ function populate (){
 }
 
 
-function displays (){
-num=this.bts[i];
-
-display.innerHTML = num;
+function displays (event){
+let num = event.currentTarget.className;
+let numy = num.textContent;
+display.innerHTML = numy;
 
 
 }
