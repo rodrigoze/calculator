@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+    overflow:hidden;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow:hidden;
+}
+.container{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 120vh;
+}
+.calculator{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1%;
+}
+button{
+    padding: 5px;
+}
+#display{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    align-items: center;
+    font-size: 2.1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid black;
+    grid-area: 1/1/2/-1;
+    
+}

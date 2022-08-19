@@ -58,16 +58,7 @@ function populate (event){
         
         display.innerHTML = result[20];    
     }
-    else if (result[2]){
-        let op=event.currentTarget.textContent;
-        result[4] =firstNum.join('');
-        result[3] =op;
-        display.innerHTML = op;
-        
-    } 
-    else if(result[3]){
-
-    }
+    
     else {
     let op=event.currentTarget.textContent;
     result[0] =firstNum.join('');
